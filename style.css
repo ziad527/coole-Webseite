@@ -1,0 +1,157 @@
+body{
+    background: green
+}
+
+header{
+    background:lightgreen;
+    padding:  10px;
+    color:     yellow;
+    border-radius: 10px;    
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+
+main{   
+    background: lightgreen;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:  10px;
+    border-radius: 10px;   
+    width: 80%;
+
+
+}
+
+nav a{
+    color: darkgreen;
+    text-align: center;
+    padding: 20px;
+   text-decoration: none;
+    font-size: 18px;
+}        
+    
+    nav a:hover {
+        background-color:aqua;
+        color:rgb(9, 139, 53);
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+        display:block;
+        margin-top: 10px;
+        border-radius: 6px;             
+
+    }
+
+    map-warp {
+        margin-top: 12px;
+        width: 100%;
+        border-radius: 6px;
+
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+        display:block;
+        margin-top: 10px;
+        aspect-ratio: 16/9;
+        border-radius: 6px;             
+
+    }
+
+    .gallery {
+        display: inline-block;
+    }
+
+    .gallery-item {
+        margin: 5px;
+        border: 1px solid #d3d2e0;
+        border-radius: 5px;
+        float: left;
+        width: 240px;
+        background :lightgreen
+    }
+
+    .gallery-item img {
+        width: 100%;
+        margin-top:5px;
+        height: auto;
+        
+    }
+
+    .gallery-item .desc {
+        padding: 15px;
+        text-align: center;
+        color:darkgreen
+    }
+
+    .gallery-item:hover {
+        border: 1px darkgreen solid;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        width: 100%;
+        border-radius: 6px;             
+    }
+    th, td {
+        border: 1px solid #220966;
+        padding: 8px;
+        text-align: left;
+        color: darkgreen;
+    }
+    th {
+        background-color: lightgreen;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        text-align: left;
+        color: darkgreen;
+    }
+
+    tr:hover {
+        background-color: aqua;
+    }
+
+    .card{      
+        background-color: aliceblue;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .row {  
+        display: flex;
+        flex-direction:row ;
+    }
+
+    .column {
+        display:flex;
+        flex-direction: column;
+
+    }
+
+    .row .column:last-child .card{  
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .row .column:last-child .card .gallery {
+        flex: 1;
+        overflow-y: auto;
+        padding-right: 6px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
